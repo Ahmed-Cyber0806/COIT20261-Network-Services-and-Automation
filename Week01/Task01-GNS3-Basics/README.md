@@ -91,6 +91,6 @@ configuration was applied successfully.
 
 ## Submitted files
 
-- `GNS3-Intro-12325506.gns3project`
+- `GNS3-Intro-12325506.gns3project.zip`
 - `screenshots/GNS3-Intro-12325506-network.png`
 - `screenshots/GNS3-Intro-12325506-ipaddress.png`
