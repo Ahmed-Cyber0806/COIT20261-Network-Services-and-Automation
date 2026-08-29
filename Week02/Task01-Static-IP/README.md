@@ -71,33 +71,33 @@ ip address show
 
 ### Network topology
 
-![Static IP network](screenshots/Setting-IP-12325506-network.png)
+![Static IP network](screenshots/Setting-IP-12325506-network.jpeg)
 
 The topology contains four Linux Hosts connected to one Ethernet switch
 on the `10.2.1.0/24` network.
 
 ### Host1 IP address
 
-![Host1 IP address](screenshots/Setting-IP-12325506-host1.png)
+![Host1 IP address](screenshots/Setting-IP-12325506-host1.jpeg)
 
 Host1 was configured through the GNS3 Configure menu.
 
 ### Host2 IP address
 
-![Host2 IP address](screenshots/Setting-IP-12325506-host2.png)
+![Host2 IP address](screenshots/Setting-IP-12325506-host2.jpeg)
 
 Host2 was configured through the GNS3 Configure menu.
 
 ### Host3 IP address
 
-![Host3 IP address](screenshots/Setting-IP-12325506-host3.png)
+![Host3 IP address](screenshots/Setting-IP-12325506-host3.jpeg)
 
 Host3 was configured by editing `/etc/network/interfaces` from its
 console and reloading `eth0`.
 
 ### Host4 IP address
 
-![Host4 IP address](screenshots/Setting-IP-12325506-host4.png)
+![Host4 IP address](screenshots/Setting-IP-12325506-host4.jpeg)
 
 Host4 was configured temporarily using the `ip address add` command.
 
