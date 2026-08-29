@@ -89,7 +89,7 @@ Server across the routed network.
 
 ### Captured HTTP traffic
 
-![HTTP traffic in Wireshark](screenshots/HTTPClient-GUI-12325506-wireshark.jpeg)
+![HTTP traffic in Wireshark](screenshots/HTTPClient-GUI-12325506-wireshark)
 
 ## Problems and solutions
 
