@@ -67,11 +67,18 @@ clients without requiring a graphical browser.
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+The graphical Firefox Host from the previous project was replaced with a
+Linux Host configured with the same IPv4 address and gateway. I verified
+the replacement configuration using `ip address show`, `ip route show`
+and ping before running the HTTP tests.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned that web servers can be accessed without a graphical browser.
+`wget` downloaded the web page and saved it locally, while `curl`
+displayed the HTTP response content directly in the console. Command-line
+HTTP clients require fewer resources and are useful for testing and
+automation.
 
 ## Submitted files
 
