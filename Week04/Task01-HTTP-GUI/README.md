@@ -93,11 +93,20 @@ Server across the routed network.
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+The GNS3 browser-based VNC console did not open the Firefox graphical
+desktop. I installed TightVNC Viewer on Windows and connected directly to
+the VNC port displayed by GNS3. I also created a replacement Firefox Host
+after troubleshooting the original node, configured it with
+`10.4.1.10/24` and confirmed that it could reach the server across both
+routers. The website then loaded successfully.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned how an HTTP client accesses a server located on a remote subnet.
+The Firefox Client used Router1 as its default gateway, and both routers
+forwarded the traffic using their routing tables. I also captured the
+traffic on Subnet B and used Wireshark to identify the TCP port 80 and
+HTTP request and response packets.
 
 ## Submitted files
 
