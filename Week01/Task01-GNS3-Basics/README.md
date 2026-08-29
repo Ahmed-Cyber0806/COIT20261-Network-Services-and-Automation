@@ -76,11 +76,18 @@ The console output confirms that `10.10.1.1/24` is assigned to interface
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+The Linux Host initially took some time to start while the GNS3 virtual
+machine was loading. I waited for the server and node to finish starting,
+then reopened the console. After startup, the configured address appeared
+correctly on interface `eth0`.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned how to create and organise a basic GNS3 project, add annotations
+and configure a static IPv4 address on a Linux interface. I also learned
+that the address must be written in the network configuration before the
+host starts, and that `ip address show` can be used to confirm whether the
+configuration was applied successfully.
 
 ## Submitted files
 
