@@ -103,17 +103,28 @@ Host4 was configured temporarily using the `ip address add` command.
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+When reloading the configuration on Host3, the `ifdown eth0` command
+reported that interface `eth0` was not configured. This occurred because
+the interface had not previously been loaded from the interfaces file.
+I then ran `ifup eth0`, which loaded the new configuration and assigned
+`10.2.1.3/24` successfully.
+Host4 was configured using the `ip address add` command. This setting is
+temporary and must be entered again if the host is restarted.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned three methods of configuring static IPv4 addresses on Linux
+hosts. Configuring an address through GNS3 before startup and editing
+`/etc/network/interfaces` provide persistent configuration. In contrast,
+the `ip address add` command applies the address immediately but does not
+preserve it after a restart. I also used `ip address show` to verify that
+all four hosts were configured on the same subnet.
 
 ## Submitted files
 
 - `Setting-IP-12325506.gns3project.zip`
-- `screenshots/Setting-IP-12325506-network.png`
-- `screenshots/Setting-IP-12325506-host1.png`
-- `screenshots/Setting-IP-12325506-host2.png`
-- `screenshots/Setting-IP-12325506-host3.png`
-- `screenshots/Setting-IP-12325506-host4.png`
+- `screenshots/Setting-IP-12325506-network.jpeg`
+- `screenshots/Setting-IP-12325506-host1.jpeg`
+- `screenshots/Setting-IP-12325506-host2.jpeg`
+- `screenshots/Setting-IP-12325506-host3.jpeg`
+- `screenshots/Setting-IP-12325506-host4.jpeg`
