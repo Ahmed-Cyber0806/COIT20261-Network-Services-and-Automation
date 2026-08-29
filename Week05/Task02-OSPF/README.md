@@ -58,14 +58,14 @@ adjacencies with them.
 
 ## Router summary
 
-Complete this table using the actual `show ip route` output:
+## Router summary
 
-| Router | Destination | Next node |
-|---|---|---|
-| FRR1 | Record from output | Record from output |
-| FRR2 | Record from output | Record from output |
-| FRR3 | Record from output | Record from output |
-| FRR4 | Record from output | Record from output |
+| Router | Destination | Next node | Interface/notes |
+|---|---|---|---|
+| FRR1 | 10.10.6.0/24 | 10.10.2.2 | eth1, OSPF metric 300 |
+| FRR2 | 10.10.6.0/24 | 10.10.4.4 | eth1, OSPF metric 200 |
+| FRR3 | 10.10.6.0/24 | 10.10.3.1 | eth0, OSPF metric 400 after NETem2 stopped |
+| FRR4 | 10.10.1.0/24 | 10.10.4.2 and 10.10.5.3 | Equal-cost OSPF paths through eth0 and eth1 |
 
 ## Path before link failure
 
