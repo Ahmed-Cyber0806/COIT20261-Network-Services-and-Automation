@@ -91,11 +91,19 @@ ping -c 5 -i 2 -s 100 10.2.1.2
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+The ping to `10.2.1.99` did not receive any replies because that address
+was not assigned to a host. I allowed the test to continue for at least
+ten seconds and stopped it with `Ctrl+C` so the packet-loss summary was
+displayed. The successful tests confirmed that Host1 and Host2 were
+correctly configured on the same subnet.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned that ping uses ICMP echo requests and replies to test whether a
+destination is reachable. The command also measures round-trip time and
+reports packet loss. I used `-c` to control the request count, `-i` to
+change the interval and `-s` to change the amount of data sent in each
+request.
 
 ## Submitted files
 
