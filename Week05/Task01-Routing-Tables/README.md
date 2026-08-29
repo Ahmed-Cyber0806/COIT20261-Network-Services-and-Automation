@@ -89,11 +89,19 @@ ping -c 5 10.5.2.10
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+Hosts on different subnets initially required correct default-gateway
+settings before they could communicate. I verified that Host1 and Host2
+used `10.5.1.1`, Host3 used `10.5.2.1` and Router1 had forwarding
+enabled. After confirming the routing tables, inter-subnet ping completed
+successfully.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned that hosts send traffic for remote networks to a default
+gateway, while a router uses its routing table to select the outgoing
+interface. Router1 had both subnets as directly connected routes and
+required IP forwarding to transfer packets between them. Hosts had
+forwarding disabled because they were end devices rather than routers.
 
 ## Submitted files
 
