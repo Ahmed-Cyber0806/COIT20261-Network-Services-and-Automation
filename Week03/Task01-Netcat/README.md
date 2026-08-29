@@ -68,11 +68,18 @@ displayed in the other console.
 
 ## Problems and solutions
 
-This section will be completed after the practical activity.
+The Netcat server initially displayed a blank line after the command was
+entered. This was expected because the server was listening for an
+incoming connection. After starting the client with the server address
+and matching TCP port, the connection was established and messages could
+be exchanged successfully.
 
 ## What I learned
 
-This section will be completed after the practical activity.
+I learned how to start Netcat in server and client modes and establish a
+TCP connection using an IPv4 address and port number. Unlike ping, which
+uses ICMP to test network reachability, Netcat tests application-level
+communication and allows text messages to be exchanged between devices.
 
 ## Submitted files
 
