@@ -61,7 +61,7 @@ ip address show
 
 ### Network topology
 
-![GNS3 network topology](screenshots/GNS3-Intro-12325506-network.png)
+![GNS3 network topology](screenshots/GNS3-Intro-12325506-network.jpeg)
 
 The network topology contains one Linux Host configured with the address
 `10.10.1.1/24`. The project annotation identifies the activity and
@@ -69,7 +69,7 @@ includes my student information.
 
 ### IP address verification
 
-![IP address verification](screenshots/GNS3-Intro-12325506-ipaddress.png)
+![IP address verification](screenshots/GNS3-Intro-12325506-ipaddress.jpeg)
 
 The console output confirms that `10.10.1.1/24` is assigned to interface
 `eth0`.
