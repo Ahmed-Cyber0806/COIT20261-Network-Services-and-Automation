@@ -58,8 +58,6 @@ adjacencies with them.
 
 ## Router summary
 
-## Router summary
-
 | Router | Destination | Next node | Interface/notes |
 |---|---|---|---|
 | FRR1 | 10.10.6.0/24 | 10.10.2.2 | eth1, OSPF metric 300 |
